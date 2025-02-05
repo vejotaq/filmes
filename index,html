@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="main.css"> 
+    <title>Projetos de Filmes e Séries</title>
+</head>
+<body>
+
+    <div class="blob"></div>
+    <div class="blur"></div>
+
+    <main>
+        <header class="header">
+            <div class="container">
+                <div class="branding">
+                    <a href="https://github.com/SrDev-Henrique" target="_blank" aria-label="Abrir o perfil do SrDevHenrique no GitHub em uma nova aba"><span class="magic">Filmes e series</span></a>
+                </div>
+                <nav>
+                    <ul class="menu">
+                        <li>
+                            <a class="inicio" href="#">Início</a>
+                        </li>
+                        <li>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+            
+        <section id="projetos">
+            <div class="container">
+                <div class="projetos">
+                    <div class="letters">
+                        <div class="top">
+                            <span class="letter">F</span>
+                            <span class="letter">i</span>
+                            <span class="letter">l</span>
+                            <span class="letter">m</span>
+                            <span class="letter">e</span>
+                            <span class="letter">s</span>
+                        </div>
+                        <div class="bottom">
+                            <span class="letter">e</span>
+                            <span class="letter"> </span>
+                            <span class="letter">S</span>
+                            <span class="letter">é</span>
+                            <span class="letter">r</span>
+                            <span class="letter">i</span>
+                            <span class="letter">e</span>
+                            <span class="letter">s</span>
+                        </div>
+                    </div>
+                </div>
+                <ul class="products">
+                    <li class="product-item left-side">
+                        <div class="image-container">
+                            <img src="https://i.pinimg.com/originals/51/ba/64/51ba64b2e61f820e0e86bdd2f4c6e92c.jpg">
+                            <a href="https://www.imdb.com/title/tt0107290/" target="_blank" aria-label="Abrir a página de Jurassic Park no IMDb"><img loading="lazy" src="assets/images/filme1.webp" alt="Jurassic Park"/></a>
+                        </div>
+                        <div class="info-container">
+                            <p>
+                                Um dos filmes mais icônicos de dinossauros e aventura.
+                            </p>
+                            <h4>Jurassic Park</h4>
+                            <a href="https://www.imdb.com/title/tt0107290/" target="_blank">
+                                <button class="product-button" type="button">
+                                    Ir para o IMDb
+                                </button>
+                            </a>
+                        </div>
+                    </li>
+                    <li class="product-item right-side">
+                        <div class="image-container">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0MWklk3IJ4g2kbJrbmPmc2Fm2uhDJRqALUA&s">
+                            <a href="https://www.imdb.com/title/tt0411008/" target="_blank" aria-label="Abrir a página de Avatar no IMDb"><img loading="lazy" src="assets/images/filme2.webp" alt="Avatar"/></a>
+                        </div>
+                        <div class="info-container">
+                            <p>
+                                A épica história de James Cameron em Pandora.
+                            </p>
+                            <h4>Avatar</h4>
+                            <a href="https://www.imdb.com/title/tt0411008/" target="_blank">
+                                <button class="product-button" type="button">
+                                    Ir para o IMDb
+                                </button>
+                            </a>
+                        </div>
+                    </li>
+                    <li class="product-item left-side">
+                        <div class="image-container">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYbXgxjuxFJw-bjqW22MtoGGxmlLJ04bdlMg&s">
+                            <a href="https://www.netflix.com/br/title/70143836" target="_blank" aria-label="Abrir a página de Stranger Things na Netflix"><img loading="lazy" src="assets/images/serie1.webp" alt="Stranger Things"/></a>
+                        </div>
+                        <div class="info-container">
+                            <p>
+                                Mistério e suspense nas aventuras de um grupo de amigos.
+                            </p>
+                            <h4>Stranger Things</h4>
+                            <a href="https://www.netflix.com/br/title/70143836" target="_blank">
+                                <button class="product-button" type="button">
+                                    Ir para a Netflix
+                                </button>
+                            </a>
+                        </div>
+                    </li>
+                    <li class="product-item right-side">
+                        <div class="image-container">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRiCtTwp9bSRc7VltVNvfhXkbJCS0Kc8b3jtA&s">
+                            <a href="https://www.hbo.com/game-of-thrones" target="_blank" aria-label="Abrir a página de Game of Thrones na HBO"><img loading="lazy" src="assets/images/serie2.webp" alt="Game of Thrones"/></a>
+                        </div>
+                        <div class="info-container">
+                            <p>
+                                Uma série épica de fantasia e intriga política.
+                            </p>
+                            <h4>Game of Thrones</h4>
+                            <a href="https://www.hbo.com/game-of-thrones" target="_blank">
+                                <button class="product-button" type="button">
+                                    Ir para a HBO
+                                </button>
+                            </a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+            
+        <footer class="footer">
+            <div class="container">
+                <h2><a href="https://github.com/SrDev-Henrique" target="_blank"><span class="magic">
+                </h2>
+            </div>
+        </footer>
+
+    </main>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+    <script src="js/load.js"></script>
+    <script src="js/letters.js"></script>
+    <script src="js/blob.js"></script>
+    <script src="js/translate.js"></script>
+</body>
+</html>
